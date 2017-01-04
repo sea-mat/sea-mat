@@ -3,7 +3,7 @@
 <table summary="Title">
     <tr>
         <td><img src="img/gom2.jpg" alt="South Atlantic Bathymetry"/></td>
-        <td><h3><br/>A collaborative effort to organize and distribute<br/>
+        <td><h3>A collaborative effort to organize and distribute<br/>
         Matlab tools for the Oceanographic Community</h3></td>
         <td><img src="img/dataline.gif" alt="time series plot"/></td>
     </tr>

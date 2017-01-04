@@ -51,6 +51,9 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Miscellaneous Other Tools
 
+- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc)
+
+
 
 ## Fun
 

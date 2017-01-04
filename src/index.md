@@ -1,26 +1,16 @@
-# SEAPY: Python Tools for Oceanographic Analysis
+# SEA-MAT: Matlab Tools for Oceanographic Analysis
 
 <table summary="Title">
     <tr>
         <td><img src="img/map.png" alt="South Atlantic Bathymetry"/></td>
         <td><h3><br/>A collaborative effort to organize and distribute<br/>
-        Python tools for the Oceanographic Community</h3></td>
+        Matlab tools for the Oceanographic Community</h3></td>
         <td><img src="img/timeSeries.png" alt="time series plot"/></td>
     </tr>
 </table>
 
 
-A collaborative effort to organize Python tools for the Oceanographic Community
-
-
-## The bare minimum
-
-- [Python](http://www.python.org/): Needs no introduction.
-- [IPython](http://ipython.scipy.org/): An enhanced interactive Python shell.
-- [NumPy](http://numpy.scipy.org): Support for large, multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays.
-- [SciPy](http://www.scipy.org): Library of algorithms and mathematical tools for the Python programming language.
-- [matplotlib](http://matplotlib.sourceforge.net): 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments.
-
+A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Time Series Tools
 

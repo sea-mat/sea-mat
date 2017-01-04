@@ -25,21 +25,19 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 - [m_map](https://www.eoas.ubc.ca/~rich/map.html): A free mapping package. From Rich Pawlowicz. 
 
+
 ## Hydrographic Tools
 
-
+- [ez-krig](http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html): A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.
 
 
 ## Data Interface Tools
 
-
-
-## CDMs
-
+- [nctoolbox](http://nctoolbox.github.io/nctoolbox/): Provides read-only access to NetCDF, OPeNDAP, HDF5, GRIB, GRIB2, HDF4 and many (15+) other file formats and services using the same API.  Understands and utilizes CF Conventions to facilitate reading coordinate data (lon, lat, depth, time). 
 
 ## Atmosphere
 
-
+- [air-sea](https://github.com/rsignell-usgs/air-sea): Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.
 
 ## Climate
 

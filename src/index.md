@@ -17,7 +17,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 - [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
 
-- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc).
+- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Tools for principal axis, low-pass filtering, z0tocd, and more.  From Rich Signell. 
 
 - [rwt](https://github.com/ricedsp/rwt): Rice Wavelet Toolbox. 
 

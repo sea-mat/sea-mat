@@ -37,6 +37,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 - [teos-10](http://www.teos-10.org/software.htm): Thermodynamic Equation of Seawater (e.g. practical salinity, specific volume, potential density, etc). 
 - [ez-krig](http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html): A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.
 - [lim](https://www.eoas.ubc.ca/~rich/#LIM): Tools for water properties in lakes (or seawater < 4 ppt). From Rich Pawlowitz.
+- [dynmodes](https://github.com/sea-mat/dynmodes): DYNMODES calculates ocean dynamic vertical modes. From John Klinck. 
 
 
 ## Data Interface Tools

@@ -17,17 +17,19 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 - [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
 
-- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Tools for principal axis, low-pass filtering, z0tocd, and more.  From Rich Signell. 
+- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff): Tools for principal axis, low-pass filtering, z0tocd, and more.  From Rich Signell. 
+
+- [Bobstuff](https://github.com/sea-mat/bobstuff): Tools for vector correlation and more.  From Bob Beardsley. 
 
 - [rwt](https://github.com/ricedsp/rwt): Rice Wavelet Toolbox. 
 
+- [timeplt](https://github.com/rsignell-usgs/timeplt): Gregorian labeling of stacked time series plots, including vector stick plots. From Rich Signell. 
+
 
 ## Numerical Modeling Tools
-
 - [seagrid](https://github.com/rsignell-usgs/seagrid): Orthogonal curvilinear grid creator for Matlab, used to make grids for ROMS, COAWST, ECOM, etc.
 
 ## Mapping Tools
-
 - [m_map](https://www.eoas.ubc.ca/~rich/map.html): A free mapping package. From Rich Pawlowicz. 
 
 
@@ -38,17 +40,15 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 
 ## Data Interface Tools
-
 - [nctoolbox](http://nctoolbox.github.io/nctoolbox/): Provides read-only access to NetCDF, OPeNDAP, HDF5, GRIB, GRIB2, HDF4 and many (15+) other file formats and services using the same API.  Understands and utilizes CF Conventions to facilitate reading coordinate data (lon, lat, depth, time). 
 
 ## Atmosphere
 
-- [air-sea](https://github.com/rsignell-usgs/air-sea): Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.
+- [air-sea](https://github.com/sea-mat/air-sea): Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.
 
 
 
 ## Miscellaneous Other Tools
-
 - [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
 
 - [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc).

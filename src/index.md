@@ -9,13 +9,17 @@
     </tr>
 </table>
 
-
 A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Time Series Tools
 
 - [UTide](http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com): Expands and integrates the t_tide (Pawlowicz et al 2002), r_t_tide (Leffler and Jay 2009), and "versatile" (Foreman et al 2009) approaches into a common framework. From Dan Codiga.
 
+- [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
+
+- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc).
+
+- [rwt](https://github.com/ricedsp/rwt): Rice Wavelet Toolbox. 
 
 
 ## Numerical Modeling Tools
@@ -41,13 +45,6 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 - [air-sea](https://github.com/rsignell-usgs/air-sea): Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.
 
-## Climate
-
-
-
-## Statistics
-
-
 
 
 ## Miscellaneous Other Tools
@@ -57,7 +54,5 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 - [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc).
 
 
-
-## Fun
 
 

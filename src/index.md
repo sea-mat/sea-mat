@@ -27,7 +27,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 
 ## Hydrographic Tools
-
+- [teos-10](http://www.teos-10.org/software.htm): Thermodynamic Equation of Seawater (e.g. practical salinity, specific volume, potential density, etc). 
 - [ez-krig](http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html): A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.
 
 

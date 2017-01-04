@@ -38,7 +38,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 - [ez-krig](http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html): A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.
 - [lim](https://www.eoas.ubc.ca/~rich/#LIM): Tools for water properties in lakes (or seawater < 4 ppt). From Rich Pawlowitz.
 - [dynmodes](https://github.com/sea-mat/dynmodes): DYNMODES calculates ocean dynamic vertical modes. From John Klinck. 
-
+- [woce-tools](https://github.com/sea-mat/woce-tools): A collection of WOCE water property data utilities. From Paul Robbins. 
 
 ## Data Interface Tools
 - [nctoolbox](http://nctoolbox.github.io/nctoolbox/): Provides read-only access to NetCDF, OPeNDAP, HDF5, GRIB, GRIB2, HDF4 and many (15+) other file formats and services using the same API.  Understands and utilizes CF Conventions to facilitate reading coordinate data (lon, lat, depth, time). 

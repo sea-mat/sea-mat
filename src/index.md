@@ -23,6 +23,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Mapping Tools
 
+- [m_map](https://www.eoas.ubc.ca/~rich/map.html): A free mapping package. From Rich Pawlowicz. 
 
 ## Hydrographic Tools
 
@@ -51,7 +52,9 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Miscellaneous Other Tools
 
-- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc)
+- [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
+
+- [RPSstuff](https://github.com/rsignell-usgs/RPSstuff/tree/master/RPSstuff): Miscellaneous tools from Rich Signell (principal axis, low-pass filtering, z0tocd, etc).
 
 
 

@@ -14,7 +14,8 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Time Series Tools
 
-- [UTide](http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com): Tidal analysis tools from Dan Codiga.
+- [UTide](http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com): Expands and integrates the t_tide (Pawlowicz et al 2002), r_t_tide (Leffler and Jay 2009), and "versatile" (Foreman et al 2009) approaches into a common framework. From Dan Codiga.
+
 
 
 ## Numerical Modeling Tools
@@ -29,6 +30,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 ## Hydrographic Tools
 - [teos-10](http://www.teos-10.org/software.htm): Thermodynamic Equation of Seawater (e.g. practical salinity, specific volume, potential density, etc). 
 - [ez-krig](http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html): A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.
+- [lim](https://www.eoas.ubc.ca/~rich/#LIM): Tools for water properties in lakes (or seawater < 4 ppt). From Rich Pawlowitz.
 
 
 ## Data Interface Tools

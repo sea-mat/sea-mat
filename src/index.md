@@ -47,5 +47,5 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Related Web Sites
 - [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=mlc_fx_browse): Repository of user-contributed toolboxes contributed for MATLAB. 
-- [Sea-py](http://pyoceans.github.io/sea-py/)Python tools for oceanographic analysis. 
+- [Sea-py](http://pyoceans.github.io/sea-py/): Python tools for oceanographic analysis. 
 

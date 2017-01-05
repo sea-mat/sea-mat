@@ -1,8 +1,6 @@
 site_name: SEA-MAT
 pages:
   - Home: index.md
-  - Web resources: webresources.md
-  - About: about.md
 
 theme_dir: mkdocs
 

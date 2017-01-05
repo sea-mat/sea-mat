@@ -22,4 +22,4 @@ markdown_extensions:
     - math
     - markdown_checklist.extension
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','js/mathjaxhelper.js']
-google_analytics: ['UA-9133259-16', 'sea-mat.github.io']
+google_analytics: ['UA-89895811-1', 'sea-mat.github.io']

@@ -46,6 +46,9 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 ## Atmosphere
 - [air-sea](https://github.com/sea-mat/air-sea): Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.
 
+## Other Tools
+- [moordyn](http://canuck.seos.uvic.ca/rkd/mooring/moordyn.php):Tools for designing and testing dynamics of oceanographic moorings and towed bodies. From Richard Dewey.
+
 ## Related Web Sites
 - [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=mlc_fx_browse): Repository of user-contributed toolboxes contributed for MATLAB. 
 - [Sea-py](http://pyoceans.github.io/sea-py/): Python tools for oceanographic analysis. 

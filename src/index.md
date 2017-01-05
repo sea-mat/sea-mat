@@ -48,6 +48,8 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Other Tools
 - [moordyn](http://canuck.seos.uvic.ca/rkd/mooring/moordyn.php):Tools for designing and testing dynamics of oceanographic moorings and towed bodies. From Richard Dewey.
+- [tide_ell](https://www.mathworks.com/matlabcentral/fileexchange/347-tidal-ellipse): Tidal ellipse tools that convert between u and v amplitude and phase parameters and tidal ellipse parameters (major axis, ellipticity, inclination and phase). There is also a program to estimate vertical profiles of tidal ellipse parameters, given sea-elevation gradients. From Zhigang Xu. 
+ 
 
 ## Related Web Sites
 - [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=mlc_fx_browse): Repository of user-contributed toolboxes contributed for MATLAB. 

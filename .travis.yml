@@ -1,0 +1,20 @@
+language: python
+
+sudo: false
+
+python: '3.5'
+
+env:
+  global:
+    - secure: ""
+
+before_install:
+  - pip install doctr
+
+install:
+  - pip install mkdocs markdown-checklist
+  - pip install https://github.com/mitya57/python-markdown-math/archive/master.zip
+
+script:
+  - mkdocs build --clean --verbose
+  - doctr deploy --built-docs=_site --gh-pages-docs .

@@ -1,4 +1,4 @@
-site_name: SEAPY
+site_name: SEA-MAT
 pages:
   - Home: index.md
   - Web resources: webresources.md
@@ -6,10 +6,10 @@ pages:
 
 theme_dir: mkdocs
 
-site_description: A collaborative effort to organize and distribute Python tools for the Oceanographic Community
-site_url: https://pyoceans.github.io/seapy
-repo_url: https://github.com/pyoceans/seapy
-site_author: Filipe Fernandes
+site_description: A collaborative effort to organize and distribute Matlab tools for the Oceanographic Community
+site_url: https://sea-mat.github.io/sea-mat
+repo_url: https://github.com/sea-mat/sea-mat
+site_author: Rich Signell
 site_favicon: favicon.png
 docs_dir: src
 site_dir: _site
@@ -22,4 +22,4 @@ markdown_extensions:
     - math
     - markdown_checklist.extension
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML','js/mathjaxhelper.js']
-google_analytics: ['UA-9133259-16', 'pyoceans.github.io']
+google_analytics: ['UA-9133259-16', 'sea-mat.github.io']

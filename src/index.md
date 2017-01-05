@@ -38,6 +38,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 - [dynmodes](https://github.com/sea-mat/dynmodes): DYNMODES calculates ocean dynamic vertical modes. From John Klinck. 
 - [woce-tools](https://github.com/sea-mat/woce-tools): A collection of WOCE water property data utilities. From Paul Robbins. 
 - [FloatAxis](http://www2.mar.dfo-mpo.gc.ca/science/ocean/epsonde/programming.html): Plot data with different units (eg. temperature, salinity and density versus depth) on the same axes having the x-axis for the parameters "floating" below. The number of parameters plotted is not limited. From Blair Greenan.
+- [tsg-gc](http://www.ird.fr/us191/spip.php?article63): A tool for interactive quality control of sea surface temperature and salinity. From IRD.
 
 ## Data Interface Tools
 - [nctoolbox](http://nctoolbox.github.io/nctoolbox/): Provides read-only access to NetCDF, OPeNDAP, HDF5, GRIB, GRIB2, HDF4 and many (15+) other file formats and services using the same API.  Understands and utilizes CF Conventions to facilitate reading coordinate data (lon, lat, depth, time). 

@@ -1,0 +1,20 @@
+language: python
+
+sudo: false
+
+python: '3.5'
+
+env:
+  global:
+    - secure: "X42SZ0LiFHAn3+ZT+VPxbf60grsPfgHyqp8KfOafmH23VfrQGSoQPJqM6yzesB0amJlQSjvQsl+GbcjmFHlgD5f7qrmsaMprOxTSMHO11lTX4A0mNIQbubuRwh5RNqFtlQ8X8k3Hic5VDCsicIPWngBIPMR/cY3OCx096KYv2DPwNB7pY8a5eqX1mu6DakkBtOgU713Vas4BuJ+GI2CJ92pOK2lvgioZVAn35hAX3yb0UsS4i6pnGTplwHDLYLIhVAZ24u0VbxNY0zZL+GvWlg0/9oaloIaSw555hRegP/qjviObSgg1Axe98zzpWAmsMPWZMy4J9jhH2fHJiwHE7xMeH74yFZeGFJtIJi6swKYVVUxJWSz8tXDcQ+1gL3XhHuNJRVJHDTFEs3Bz3+ur++ZhMXOrW7nKSQNJzSaTmExfXIW6HpezWURjJ0M0jXbD+cUHgXvO7Bz/deeI0bwpgo5gMrN1upEV42V+J8wKb+VGwXIT4bu+Fio3JhDFxWoNWRuTKAOUOfN42hqderN9nT65aFeJUIpZvnn2lUCHKblLCMJIujbJpmpoBMWdrVIr4ZsZP2+haETP/5Kk7xdvhNHD9Y+A+zLpUnj3wNXsa7s2pmHBEPZlBa31AGSqLsj3Qg2CIsYPppo9v63Zi4+cTgM4dveveQ68w/7Dw5Xy3fQ="
+
+before_install:
+  - pip install doctr
+
+install:
+  - pip install mkdocs markdown-checklist
+  - pip install https://github.com/mitya57/python-markdown-math/archive/master.zip
+
+script:
+  - mkdocs build --clean --verbose
+  - doctr deploy --built-docs=_site --gh-pages-docs .

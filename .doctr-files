@@ -24,6 +24,7 @@
 ./img/grid.png
 ./img/map.png
 ./img/timeSeries.png
+./index.html
 ./js/base.js
 ./js/bootstrap-3.0.3.min.js
 ./js/highlight.pack.js
@@ -37,4 +38,5 @@
 ./mkdocs/js/search-results-template.mustache
 ./mkdocs/js/search.js
 ./mkdocs/js/text.js
+./mkdocs/search_index.json
 ./sitemap.xml

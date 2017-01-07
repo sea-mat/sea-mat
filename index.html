@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A collaborative effort to organize and distribute Matlab tools for the Oceanographic Community">
+        <meta name="author" content="Rich Signell">
+        <link rel="canonical" href="https://sea-mat.github.io/sea-mat/">
+        <link rel="shortcut icon" href="./favicon.png">
+        
+        <title>SEA-MAT</title>
+        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-89895811-1', 'sea-mat.github.io');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=".">SEA-MAT</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li>
+                        <a href="https://github.com/sea-mat/sea-mat">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#sea-mat-matlab-tools-for-oceanographic-analysis">SEA-MAT: Matlab Tools for Oceanographic Analysis</a></li>
+            <li><a href="#time-series-tools">Time Series Tools</a></li>
+            <li><a href="#numerical-modeling-tools">Numerical Modeling Tools</a></li>
+            <li><a href="#mapping-tools">Mapping Tools</a></li>
+            <li><a href="#hydrographic-tools">Hydrographic Tools</a></li>
+            <li><a href="#data-interface-tools">Data Interface Tools</a></li>
+            <li><a href="#atmosphere">Atmosphere</a></li>
+            <li><a href="#other-tools">Other Tools</a></li>
+            <li><a href="#related-web-sites">Related Web Sites</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="sea-mat-matlab-tools-for-oceanographic-analysis">SEA-MAT: Matlab Tools for Oceanographic Analysis<a class="headerlink" href="#sea-mat-matlab-tools-for-oceanographic-analysis" title="Permanent link"></a></h1>
+<table summary="Title">
+    <tr>
+        <td><img src="img/gom2.jpg" alt="South Atlantic Bathymetry"/></td>
+        <td><h3>A collaborative effort to organize and distribute<br/>
+        Matlab tools for the Oceanographic Community</h3></td>
+        <td><img src="img/dataline.gif" alt="time series plot"/></td>
+    </tr>
+</table>
+
+<p>A collaborative effort to organize Matlab tools for the Oceanographic Community</p>
+<h2 id="time-series-tools">Time Series Tools<a class="headerlink" href="#time-series-tools" title="Permanent link"></a></h2>
+<ul>
+<li>
+<p><a href="http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com">UTide</a>: Expands and integrates the <code>t_tide</code> (Pawlowicz et al 2002), <code>r_t_tide</code> (Leffler and Jay 2009), and &ldquo;versatile&rdquo; (Foreman et al 2009) approaches into a common framework. From Dan Codiga.</p>
+</li>
+<li>
+<p><a href="https://github.com/jonathanlilly/jLab">jLab</a>: A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.</p>
+</li>
+<li>
+<p><a href="https://github.com/rsignell-usgs/RPSstuff">RPSstuff</a>: Tools for principal axis, low-pass filtering, z0tocd, and more.  From Rich Signell.</p>
+</li>
+<li>
+<p><a href="https://github.com/sea-mat/bobstuff">Bobstuff</a>: Tools for vector correlation and more.  From Bob Beardsley.</p>
+</li>
+<li>
+<p><a href="https://github.com/ricedsp/rwt">rwt</a>: Rice Wavelet Toolbox.</p>
+</li>
+<li>
+<p><a href="https://github.com/rsignell-usgs/timeplt">timeplt</a>: Gregorian labeling of stacked time series plots, including vector stick plots. From Rich Signell.</p>
+</li>
+</ul>
+<h2 id="numerical-modeling-tools">Numerical Modeling Tools<a class="headerlink" href="#numerical-modeling-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://github.com/rsignell-usgs/seagrid">seagrid</a>: Orthogonal curvilinear grid creator for Matlab, used to make grids for ROMS, COAWST, ECOM, etc.</li>
+</ul>
+<h2 id="mapping-tools">Mapping Tools<a class="headerlink" href="#mapping-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://www.eoas.ubc.ca/~rich/map.html">m_map</a>: A free mapping package. From Rich Pawlowicz.</li>
+</ul>
+<h2 id="hydrographic-tools">Hydrographic Tools<a class="headerlink" href="#hydrographic-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="http://www.teos-10.org/software.htm">teos-10</a>: Thermodynamic Equation of Seawater (e.g. practical salinity, specific volume, potential density, etc).</li>
+<li><a href="http://globec.whoi.edu/software/kriging/easy_krig/easy_krig.html">ez-krig</a>: A gui-driven collection of routines to make Kriging of hydrographic and other spatial data a simple process, by Dr. Dezhang Chu.</li>
+<li><a href="https://www.eoas.ubc.ca/~rich/#LIM">lim</a>: Tools for water properties in lakes (or seawater &lt; 4 ppt). From Rich Pawlowitz.</li>
+<li><a href="https://github.com/sea-mat/dynmodes">dynmodes</a>: DYNMODES calculates ocean dynamic vertical modes. From John Klinck.</li>
+<li><a href="https://github.com/sea-mat/woce-tools">woce-tools</a>: A collection of WOCE water property data utilities. From Paul Robbins.</li>
+<li><a href="http://www2.mar.dfo-mpo.gc.ca/science/ocean/epsonde/programming.html">FloatAxis</a>: Plot data with different units (eg. temperature, salinity and density versus depth) on the same axes having the x-axis for the parameters &ldquo;floating&rdquo; below. The number of parameters plotted is not limited. From Blair Greenan.</li>
+<li><a href="http://www.ird.fr/us191/spip.php?article63">tsg-gc</a>: A tool for interactive quality control of sea surface temperature and salinity. From IRD.</li>
+</ul>
+<h2 id="data-interface-tools">Data Interface Tools<a class="headerlink" href="#data-interface-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="http://nctoolbox.github.io/nctoolbox/">nctoolbox</a>: Provides read-only access to NetCDF, OPeNDAP, HDF5, GRIB, GRIB2, HDF4 and many (15+) other file formats and services using the same API.  Understands and utilizes CF Conventions to facilitate reading coordinate data (lon, lat, depth, time).</li>
+</ul>
+<h2 id="atmosphere">Atmosphere<a class="headerlink" href="#atmosphere" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://github.com/sea-mat/air-sea">air-sea</a>: Compute surface wind stress and heat flux components from buoy and shipboard atmospheric and near-surface oceanographic time series measurements. By Rich Pawlowicz and Bob Beardlsley.</li>
+</ul>
+<h2 id="other-tools">Other Tools<a class="headerlink" href="#other-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="http://canuck.seos.uvic.ca/rkd/mooring/moordyn.php">moordyn</a>:Tools for designing and testing dynamics of oceanographic moorings and towed bodies. From Richard Dewey.</li>
+<li><a href="https://www.mathworks.com/matlabcentral/fileexchange/347-tidal-ellipse">tide_ell</a>: Tidal ellipse tools that convert between u and v amplitude and phase parameters and tidal ellipse parameters (major axis, ellipticity, inclination and phase). There is also a program to estimate vertical profiles of tidal ellipse parameters, given sea-elevation gradients. From Zhigang Xu.</li>
+<li><a href="http://www.mathworks.com/matlabcentral/fileexchange/10139-shepard-ternary-plot">ternary</a>: Shepard ternary plot (e.g. sand-silt-clay). From Bill Waite.</li>
+</ul>
+<h2 id="related-web-sites">Related Web Sites<a class="headerlink" href="#related-web-sites" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=mlc_fx_browse">Mathworks File Exchange</a>: Repository of user-contributed toolboxes contributed for MATLAB.</li>
+<li><a href="http://pyoceans.github.io/sea-py/">Sea-py</a>: Python tools for oceanographic analysis.</li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /> <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type"> "sea-mat"</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sea-mat.github.io/sea-mat" property="cc:attributionName" rel="cc:attributionURL">Rich Signell</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"> Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br /></p>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '.';</script>
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+        <script src="./js/base.js"></script>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+        <script src="./js/mathjaxhelper.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 0.16.1
+Build Date UTC : 2017-01-07 21:12:30
+-->

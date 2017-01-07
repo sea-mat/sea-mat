@@ -1,20 +1,23 @@
-language: python
+language: generic
 
 sudo: false
-
-python: '3.5'
 
 env:
   global:
     - secure: "svCDzCnUDZlRKExR4uHJEtf+p01ogD/RS01vo6Y17rnHzg5o1sczACFzNvELvm4Jb5AriSFDrw09D3Iv8gRQ6huItRI4bc17Q3b8w1hbEehFD8PYdZWlpR1FKEjCV8/TwTaxpX1mex9DbmZwBdq9fZ4RvA7bA4QP2GLvAV9w8Pt6soBmLCeUiIWQZIFi5OBkJQKrtecIMyanIK95eKOlZbGZDblPabUQgc/LLLgDUIw1325Se6rhJsA3NwAogF2YqQUIQymeTmn7lYMaT+8AHwCS9S3WcyBhi5xoHhDSGHyMTbg+LEnc2IzSKBtjesDecXXML1ZRfM7kvnalVA9E9jXwMl8M9B/a/xzrAydqunT34uPi979lFFooVeG2eohTAmLEkw6KY2oZbG/wwZOtSjlg+0yC2mkgc8KFOFcHvaNvJqEaZaPxhn6LSLJCEX/yIr/KsFTA2MhSZu3j+C4rTKpydphahmW2VUoNvIoOe02hYW5erSq6HLGqL7LXS8PetW8rrjwe/vgCqWI7rOecMeIGVBgTj7ofafMcGp76wH1MtdEO6NN3IvOEdiyovh+0GeFzIYAFFAZCveOUHxGLf6ep/KKR7LiLPAh3U21DWBI4lQ0onf1EL1MK5uDTPkErVDhBRV/HJ3YHiHaZ6XtEkJ8k38PCLDor7Cgeei8ZP8w="
 
 before_install:
-  - pip install doctr
+  - wget http://bit.ly/miniconda -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda update conda --yes
+  - conda config --add channels conda-forge --force
 
 install:
-  - pip install mkdocs markdown-checklist
-  - pip install https://github.com/mitya57/python-markdown-math/archive/master.zip
+  - conda create --yes -n TEST python=3.5 --file requirements.txt
+  - source activate TEST
 
 script:
+  - set -e
   - mkdocs build --clean --verbose
   - doctr deploy --built-docs=_site --gh-pages-docs .

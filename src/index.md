@@ -13,7 +13,7 @@ A collaborative effort to organize Matlab tools for the Oceanographic Community
 
 ## Time Series Tools
 
-- [UTide](http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com): Expands and integrates the `t_tide` (Pawlowicz et al 2002), `r_t_tide` (Leffler and Jay 2009), and "versatile" (Foreman et al 2009) approaches into a common framework. From Dan Codiga.
+- [UTide](http://www.mathworks.com/matlabcentral/fileexchange/46523--utide--unified-tidal-analysis-and-prediction-functions?requestedDomain=www.mathworks.com): Expands and integrates the [t_tide](https://www.eoas.ubc.ca/~rich/#T_Tide) (Pawlowicz et al 2002), [r_t_tide](http://web.cecs.pdx.edu/~jaylab/group/leffler/software/index.html) (Leffler and Jay 2009), [IOS Tidal Package](http://www.pac.dfo-mpo.gc.ca/science/oceans/tidal-marees/index-eng.html) (Foreman et al 2009) approaches into a common framework. From Dan Codiga.
 
 - [jLab](https://github.com/jonathanlilly/jLab): A Matlab toolbox for big data analysis, signal processing, mapping, and oceanographic applications. From Jonathan Lilly.
 

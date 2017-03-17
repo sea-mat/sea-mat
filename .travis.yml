@@ -14,7 +14,7 @@ before_install:
   - conda config --add channels conda-forge --force
 
 install:
-  - conda create --yes -n TEST python=3.5 --file requirements.txt
+  - conda create --yes -n TEST python=3.6 --file requirements.txt
   - source activate TEST
 
 script:

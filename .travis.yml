@@ -11,10 +11,9 @@ before_install:
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - conda update conda --yes
-  - conda config --add channels conda-forge --force
 
 install:
-  - conda create --yes -n TEST python=3.6 --file requirements.txt
+  - conda create -f environment.yml --yes
   - source activate TEST
 
 script:

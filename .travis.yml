@@ -13,7 +13,7 @@ before_install:
   - conda update conda --yes
 
 install:
-  - conda create -f environment.yml --yes
+  - conda env create -f environment.yml
   - source activate TEST
 
 script:
